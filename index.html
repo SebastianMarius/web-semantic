@@ -1,1 +1,37 @@
-<h1> ceva </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+</head>
+<body>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Numele evenimentului",
+  "description": "Descrierea evenimentului",
+  "startDate": "2024-05-10T09:00:00-07:00",
+  "endDate": "2024-05-10T17:00:00-07:00",
+  "location": {
+    "@type": "Place",
+    "name": "Locația evenimentului",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Strada evenimentului",
+      "addressLocality": "Localitatea",
+      "addressRegion": "Regiunea",
+      "postalCode": "Codul poștal",
+      "addressCountry": "Țara"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Organizatorul evenimentului",
+    "url": "http://www.organizator.com"
+  }
+}
+</script>
+</body>
+</html>
