@@ -9,31 +9,194 @@
 </head>
 <body>
     <script type="application/ld+json">
+   {
+  "@context": {
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
     {
-      "@context": "http://schema.org",
-      "@type": "Event",
-      "name": "Numele evenimentului",
-      "description": "Descrierea evenimentului",
-      "startDate": "2024-05-10T09:00:00-07:00",
-      "endDate": "2024-05-10T17:00:00-07:00",
-      "location": {
-        "@type": "Place",
-        "name": "Locația evenimentului",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Strada evenimentului",
-          "addressLocality": "Localitatea",
-          "addressRegion": "Regiunea",
-          "postalCode": "Codul poștal",
-          "addressCountry": "Țara"
-        }
+      "@type": "Movie",
+      "url": {
+        "@id": "https://www.imdb.com/title/tt1375666/"
       },
-      "organizer": {
-        "@type": "Organization",
-        "name": "Organizatorul evenimentului",
-        "url": "http://www.organizator.com"
-      }
+      "movieId": "1",
+      "name": "Inception",
+      "contentRating": "PG-13",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "director": "Christopher Nolan",
+      "actors": [
+        {
+          "@type": "Person",
+          "name": "https://www.imdb.com/name/nm0000138/",
+          "height" : "1.83",
+          "url": {
+            "@id": "http://example.com/leonardo_dicaprio"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Joseph Gordon-Levitt",
+          "height" : "1.76",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0330687/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Ellen Page",
+	  "height": "1.55",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0680983/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Tom Hardy",
+          "height": "1.75",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0362766/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "url": {
+        "@id": "https://www.imdb.com/title/tt0816692/"
+      },
+      "movieId": "2",
+      "name": "Interstellar",
+      "contentRating": "PG-13",
+      "genre": ["Adventure", "Drama", "Sci-Fi"],
+      "director": "Christopher Nolan",
+      "actors": [
+        {
+          "@type": "Person",
+          "name": "Matthew McConaughey",
+          "height": "1.82",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0000190/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Anne Hathaway",
+          "height": "1.73",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0004266/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Jessica Chastain",
+          "height": "1.63",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm1567113/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Michael Caine",
+          "height": "1.88",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0000323/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "url": {
+        "@id": "https://www.imdb.com/title/tt6751668/"
+      },
+     "movieId": "3",
+      "name": "Parasite",
+      "contentRating": "R",
+      "genre": ["Comedy", "Drama", "Thriller"],
+      "director": "Bong Joon-ho",
+      "actors": [
+         {
+          "@type": "Person",
+          "name": "Kang-ho Song",
+          "height" : "1.80",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0814280/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Sun-kyun Lee",
+          "height" : "1.80", 
+          "url": {
+            "@id": "https://www.imdb.com/name/nm1310525/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Yeo-jeong Jo",
+          "height" : "1.63",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm1856097/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Woo-sik Choi",
+          "height" : "1.81",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm6079248/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "url": {
+        "@id": "https://www.imdb.com/title/tt2866360/"
+      },
+      "movieId": "4",
+      "name": "Coherence",
+      "contentRating": "PG-13",
+      "genre": ["Thriller", "Sci-Fi"],
+      "director": "James Ward Byrkit",
+      "actors": [
+        {
+          "@type": "Person",
+          "name": "Emily Baldoni",
+          "height": "1.75",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm2032150/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Maury Sterling",
+          "height" : "1.68",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0827561/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Nicholas Brendon",
+          "height" : "1.80",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0107183/"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Elizabeth Gracen",
+          "height": "1.78",
+          "url": {
+            "@id": "https://www.imdb.com/name/nm0001286/"
+          }
+        }
+      ]
     }
+  ]
+}
+
     </script>
 </body>
 </html>
